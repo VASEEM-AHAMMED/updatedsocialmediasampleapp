@@ -1,11 +1,9 @@
-<!-- home.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Social Media App</title>
+  <title>Social Media App</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,7 +21,6 @@
 
   <main>
     <section id="post-form">
-      <label for="post-input">What's on your mind?</label>
       <textarea id="post-input" placeholder="What's on your mind?"></textarea>
       <button onclick="post()">Post</button>
     </section>
@@ -34,37 +31,25 @@
         <p>User123: This is a sample post!</p>
       </div>
     </section>
-
-    <section id="recommended-friends">
-      <h2>Recommended Friends</h2>
-      <ul>
-        <li><img src="friend1.jpg" alt="Friend 1"><p>Friend One</p><button>Add Friend</button></li>
-        <li><img src="friend2.jpg" alt="Friend 2"><p>Friend Two</p><button>Add Friend</button></li>
-        <li><img src="friend3.jpg" alt="Friend 3"><p>Friend Three</p><button>Add Friend</button></li>
-      </ul>
-    </section>
-
-    <section id="featured-content">
-      <h2>Featured Content</h2>
-
-      <div class="featured-post">
-        <img src="image1.jpg" alt="Featured Post 1">
-        <p>Check out this amazing photo from my vacation!</p>
-        <button>Like</button>
-        <button>Comment</button>
-      </div>
-
-      <div class="featured-post">
-        <video controls width="300" height="200">
-          <source src="video1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p>Just posted a new video. Watch and subscribe!</p>
-        <button>Like</button>
-        <button>Comment</button>
-      </div>
-    </section>
   </main>
+
+  <section id="featured-content">
+    <h2>Featured Content</h2>
+
+    <div class="featured-post">
+      <img src="image1.jpg" alt="Featured Post 1">
+      <p>Check out this amazing photo from my vacation!</p>
+      <button>Like</button>
+      <button>Comment</button>
+    </div>
+
+    <div class="featured-post">
+      <img src="image2.jpg" alt="Featured Post 2">
+      <p>Just posted a new video. Watch and subscribe!</p>
+      <button>Like</button>
+      <button>Comment</button>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2023 Social Media App</p>
